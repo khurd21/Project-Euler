@@ -18,8 +18,8 @@ What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 
 
 int main() {
 
-    boost::timer::auto_cpu_timer t;
-
+    boost::timer::auto_cpu_timer t;	
+	
     std::string digits{"0123456789"};
     const uint target{1'000'000};
 
