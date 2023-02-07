@@ -21,6 +21,8 @@ produces the maximum number of primes for consecutive values of n, starting with
 
 #include<iostream>
 #include<algorithm>
+#include<omp.h>
+#include<boost/timer/timer.hpp>
 
 #define uint unsigned int
 
@@ -67,6 +69,7 @@ int product_of_max_primes() {
 }
 
 int main() {
+    boost::timer::auto_cpu_timer t;
     const int ans{ product_of_max_primes() };
     std::cout << ans << '\n';
 }
