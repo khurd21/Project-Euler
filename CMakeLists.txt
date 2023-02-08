@@ -10,7 +10,7 @@ set(CMAKE_C_COMPILER /opt/homebrew/opt/llvm/bin/clang)
 
 project(project-euler)
 
-add_executable(${PROJECT_NAME} 21-30/30.cpp)
+add_executable(${PROJECT_NAME} 1-10/8.cpp)
 
 find_package(Boost 1.81 REQUIRED COMPONENTS timer)
 find_package(OpenMP)
