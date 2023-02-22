@@ -1,4 +1,4 @@
-cmake_minimum_required()
+cmake_minimum_required(VERSION 3.25)
 
 set(CMAKE_CXX_STANDARD 20)
 set(Boost_USE_STATIC_LIBS OFF)
@@ -10,7 +10,7 @@ set(CMAKE_C_COMPILER /opt/homebrew/opt/llvm/bin/clang)
 
 project(project-euler)
 
-add_executable(${PROJECT_NAME} 1-10/10.cpp)
+add_executable(${PROJECT_NAME} 31-40/31.cpp)
 
 find_package(Boost 1.81 REQUIRED COMPONENTS timer)
 find_package(OpenMP)

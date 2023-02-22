@@ -48,3 +48,4 @@ to point to the file you want to run.
 | 28        | Number Spiral Diagonals           | [C++](./21-30/28.cpp)     |
 | 29        | Distinct Powers                   | [C++](./21-30/29.cpp)     |
 | 30        | Digit Fifth Powers                | [C++](./21-30/30.cpp)     |
+| 31        | Coin Sums                         | [C++](./31-40/31.cpp)     |
