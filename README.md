@@ -50,3 +50,5 @@ to point to the file you want to run.
 | 30        | Digit Fifth Powers                | [C++](./21-30/30.cpp)     |
 | 31        | Coin Sums                         | [C++](./31-40/31.cpp)     |
 | 32        | Pandigital Products               | [C++](./31-40/32.cpp)     |
+| 34        | Digit Factorials                  | [C++](./31-40/34.cpp)     |
+| 39        | Integer Right Triangles           | [C++](./31-40/39.cpp)     |
