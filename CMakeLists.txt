@@ -10,9 +10,9 @@ set(CMAKE_C_COMPILER /opt/homebrew/opt/llvm/bin/clang)
 
 project(project-euler)
 
-add_executable(${PROJECT_NAME} 31-40/34.cpp)
+add_executable(${PROJECT_NAME} 41-50/43.cpp)
 
-find_package(Boost 1.81 REQUIRED COMPONENTS timer)
+find_package(Boost 1.82 REQUIRED COMPONENTS timer)
 find_package(OpenMP)
 if (OpenMP_CXX_FOUND)
     target_link_libraries(${PROJECT_NAME} PUBLIC OpenMP::OpenMP_CXX)

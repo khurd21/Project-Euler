@@ -52,3 +52,4 @@ to point to the file you want to run.
 | 32        | Pandigital Products               | [C++](./31-40/32.cpp)     |
 | 34        | Digit Factorials                  | [C++](./31-40/34.cpp)     |
 | 39        | Integer Right Triangles           | [C++](./31-40/39.cpp)     |
+| 43        | Sub-String Divisibility           | [C++](./41-50/43.cpp)     |
